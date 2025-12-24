@@ -28,7 +28,7 @@ export default function Footer() {
                             GitHub
                         </a>
                         <a
-                            href="https://www.linkedin.com/in/ei-ei-khaing-42595028//"
+                            href="https://www.linkedin.com/in/ei-khaing-42595028/"
                             target="_blank"
                             rel="noreferrer"
                             className="rounded-lg border border-zinc-800 px-3 py-2 text-sm text-zinc-300 hover:bg-zinc-900/40 hover:text-white"

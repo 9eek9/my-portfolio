@@ -53,7 +53,7 @@ export default function Hero() {
                     </a>
                     <a
                         className="text-blue-400 hover:text-blue-300"
-                        href="https://www.linkedin.com/in/ei-ei-khaing-42595028/"
+                        href="https://www.linkedin.com/in/ei-khaing-42595028/"
                         target="_blank"
                         rel="noreferrer"
                     >

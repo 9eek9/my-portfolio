@@ -15,18 +15,63 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://my-portfolio-liart-zeta-9mnpnr6usz.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Ei Khaing | Full-Stack Software Engineer + Applied AI/ML",
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: "Ei Khaing | Full-Stack Software Engineer + Applied AI/ML",
+    template: "%s | Ei Khaing",
+  },
   description:
-    "Portfolio of Ei Khaing — Full-Stack Software Engineer (C#/.NET + React) with applied AI/ML experience. Projects in LLM integration, forecasting, computer vision, and NLP.",
-  metadataBase: new URL("https://example.com"), // change later when you deploy (e.g., Vercel URL)
+    "Portfolio of Ei Khaing — Full-Stack Software Engineer (C#/.NET + React/Next.js) with applied AI/ML experience. Projects in LLM integration, forecasting, computer vision, and NLP.",
+  applicationName: "Ei Khaing Portfolio",
+  authors: [{ name: "Ei Khaing" }],
+  creator: "Ei Khaing",
+  publisher: "Ei Khaing",
+  keywords: [
+    "Ei Khaing",
+    "Full-Stack Software Engineer",
+    ".NET",
+    "C#",
+    "React",
+    "Next.js",
+    "TypeScript",
+    "Azure",
+    "Machine Learning",
+    "AI",
+    "LLM",
+    "Computer Vision",
+    "NLP",
+    "Forecasting",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
   openGraph: {
-    title: "Ei Khaing | Full-Stack + Applied AI/ML",
+    title: "Ei Khaing | Full-Stack Software Engineer + Applied AI/ML",
     description:
       "Enterprise software engineer with applied AI/ML experience. Explore projects, experience, and contact info.",
-    url: "https://example.com", // change later
+    url: siteUrl,
     siteName: "Ei Khaing Portfolio",
     type: "website",
+    locale: "en_CA",
+
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ei Khaing | Full-Stack Software Engineer + Applied AI/ML",
+    description:
+      "Full-Stack Software Engineer (C#/.NET + React/Next.js) with applied AI/ML experience.",
+
   },
 };
 

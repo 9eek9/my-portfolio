@@ -15,7 +15,7 @@ export default function Contact() {
                         Get in touch
                     </a>
                     <a
-                        href="https://www.linkedin.com/in/ei-ei-khaing-42595028/"
+                        href="https://www.linkedin.com/in/ei-khaing-42595028/"
                         target="_blank"
                         rel="noreferrer"
                         className="rounded-xl border border-zinc-700 px-4 py-2 text-sm font-medium text-zinc-100 hover:bg-zinc-900"
